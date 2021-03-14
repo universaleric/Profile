@@ -1,7 +1,10 @@
 :root {
     --offCyan: #639c94;
+    --offCyanLight: #aecbc7;
     --offPurple: #94639c;
+    --offPurpleLight: #c7aecb;
     --offGold: #9c9463;
+    --offGoldLight: #cbc7ae;
 }
 
 header {
@@ -20,14 +23,49 @@ header h1 {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
-    margin: 0;
-    text-shadow: 2px 1px lightgray;
+    margin: 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    opacity: 0.75;
 }
 
 header h3 {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
-    margin: 0; /*Margin is set to 0 for both headers to position them closer together. */
-    text-shadow: 2px 1px lightgray;
+    margin-top: 1%; /*Margin is set to 1% for both headers to position them closer together. */
+    opacity: 0.5;
+}
+
+main figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+main figure img {
+    border-radius: 50%;
+    border: 10px solid var(--offGoldLight);
+    max-width: 300px;
+    margin-top: 10%;
+    position: absolute;
+}
+
+nav.leftSide {
+    display: flex;
+}
+
+nav.leftSide a{
+    color: var(--offPurple);
+    padding: 20px 100px;
+}
+
+nav.rightSide {
+    display: flex;
+}
+
+nav.rightSide a{
+    color: var(--offPurple);
+    padding: 20px 100px;
 }
