@@ -52,20 +52,31 @@ main figure img {
     position: absolute;
 }
 
-nav.leftSide {
+nav {
     display: flex;
 }
 
-nav.leftSide a{
-    color: var(--offPurple);
-    padding: 20px 100px;
+#select {
+    list-style-type: none;
+    border-radius: 15px;
+    background-color: var(--offPurple);
+    padding: 15px 45px;
+    margin: 25px;
+    display: inline-block;
 }
 
-nav.rightSide {
-    display: flex;
+.leftSide {
+    justify-content: left;
+    margin-right: 15%;
 }
 
-nav.rightSide a{
-    color: var(--offPurple);
-    padding: 20px 100px;
+.rightSide {
+    justify-content: right;
+    margin-left: 15%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
