@@ -1,0 +1,33 @@
+:root {
+    --offCyan: #639c94;
+    --offPurple: #94639c;
+    --offGold: #9c9463;
+}
+
+header {
+    background-image: url("/Images/Banner_Header.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Flex direction is set to column so the headings are positioned one on top of the other. */
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    margin: 0;
+    text-shadow: 2px 1px lightgray;
+}
+
+header h3 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 0; /*Margin is set to 0 for both headers to position them closer together. */
+    text-shadow: 2px 1px lightgray;
+}
