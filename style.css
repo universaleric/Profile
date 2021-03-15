@@ -1,10 +1,18 @@
 :root {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --offCyan: #639c94;
     --offCyanLight: #aecbc7;
     --offPurple: #94639c;
     --offPurpleLight: #c7aecb;
     --offGold: #9c9463;
     --offGoldLight: #cbc7ae;
+}
+
+body{
+    background-color: #cbc7ae;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -37,6 +45,11 @@ header h3 {
     opacity: 0.5;
 }
 
+main {
+    background-image: url("/Images/Rolling_Hedgehog.jpg");
+    background-repeat: repeat-x;
+}
+
 main figure {
     display: flex;
     align-items: center;
@@ -54,29 +67,34 @@ main figure img {
 
 nav {
     display: flex;
+    margin-top: 20%;
+    justify-content: center;
 }
 
-#select {
-    list-style-type: none;
-    border-radius: 15px;
+.navbarNav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+#navItem {
     background-color: var(--offPurple);
-    padding: 15px 45px;
-    margin: 25px;
+    margin: 10px;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    display: flex;
     display: inline-block;
-}
-
-.leftSide {
-    justify-content: left;
-    margin-right: 15%;
-}
-
-.rightSide {
-    justify-content: right;
-    margin-left: 15%;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
+    vertical-align: middle;
+    line-height: 100px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
