@@ -63,6 +63,7 @@ main figure img {
 nav {
     display: flex;
     margin-top: 20%;
+    padding-bottom: 200px;
     justify-content: center;
 }
 
@@ -107,10 +108,6 @@ section {
     align-items: center;
 }
 
-section:before {
-    
-}
-
 .sectionHeader {
     background-color: var(--offCyan);
     margin: 10px;
@@ -141,4 +138,15 @@ section img {
     height: 250px;
     width: 250px;
     margin-right: 2%;
+}
+
+.secondary {
+    background-color: white;
+}
+
+.secondary ul {
+    list-style: none;
+    text-align: center;
+    font-size: 32px;
+    margin: 25%; 
 }
