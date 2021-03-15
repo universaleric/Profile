@@ -7,6 +7,7 @@
     --offPurpleLight: #c7aecb;
     --offGold: #9c9463;
     --offGoldLight: #cbc7ae;
+    --offGoldLighter: #eceae1;
 }
 
 body{
@@ -42,11 +43,6 @@ header h3 {
     font-size: 25px;
     margin-top: 1%; /*Margin is set to 1% for both headers to position them closer together. */
     opacity: 0.5;
-}
-
-main {
-    /* background-image: url("/Images/Rolling_Hedgehog.jpg");
-    background-repeat: repeat-x; */
 }
 
 main figure {
@@ -100,31 +96,49 @@ nav a {
 }
 
 section {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    background-color: var(--offGoldLight);
+    background-color: var(--offGoldLighter);
     color: var(--offPurple);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display:flex;
     position: relative;
+    align-items: center;
+}
+
+section:before {
+    
 }
 
 .sectionHeader {
     background-color: var(--offCyan);
     margin: 10px;
-    margin-top: -7%;
+    margin-top: -22%;
     height: 200px;
     width:200px;
     border-radius: 50%;
     border: 10px solid var(--offCyanLight);
-    display: flex;
-    display: inline-block;
     position: absolute;
     text-align: center;
 }
 
 section h2 {
-    line-height: 150px;
+    line-height: 95px;
     vertical-align: middle;
     color: white;
+}
+
+section p {
+    margin-left: 250px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+section img {
+    border-radius: 50%;
+    border: 10px solid var(--offGoldLight);
+    height: 250px;
+    width: 250px;
+    margin-right: 2%;
 }
