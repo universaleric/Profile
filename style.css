@@ -10,7 +10,6 @@
 }
 
 body{
-    background-color: #cbc7ae;
     margin: 0;
     padding: 0;
 }
@@ -46,8 +45,8 @@ header h3 {
 }
 
 main {
-    background-image: url("/Images/Rolling_Hedgehog.jpg");
-    background-repeat: repeat-x;
+    /* background-image: url("/Images/Rolling_Hedgehog.jpg");
+    background-repeat: repeat-x; */
 }
 
 main figure {
@@ -80,11 +79,12 @@ nav {
 }
 
 #navItem {
-    background-color: var(--offPurple);
+    background-color: var(--offCyan);
     margin: 10px;
     height: 100px;
     width:100px;
     border-radius: 50%;
+    border: 10px solid var(--offCyanLight);
     display: flex;
     display: inline-block;
     text-align: center;
@@ -97,4 +97,34 @@ nav a {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+
+section {
+    height: 400px;
+    width: 100%;
+    background-color: var(--offGoldLight);
+    color: var(--offPurple);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display:flex;
+    position: relative;
+}
+
+.sectionHeader {
+    background-color: var(--offCyan);
+    margin: 10px;
+    margin-top: -7%;
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border: 10px solid var(--offCyanLight);
+    display: flex;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+
+section h2 {
+    line-height: 150px;
+    vertical-align: middle;
+    color: white;
 }
