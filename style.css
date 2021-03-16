@@ -45,6 +45,11 @@ header h3 {
     opacity: 0.5;
 }
 
+main {
+    background-image:url(./Images/Header_Banner_White.jpg);
+    background-repeat: repeat-x;
+}
+
 main figure {
     display: flex;
     align-items: center;
@@ -97,7 +102,7 @@ nav a {
 }
 
 section {
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: var(--offGoldLighter);
     color: var(--offPurple);
@@ -111,7 +116,7 @@ section {
 .sectionHeader {
     background-color: var(--offCyan);
     margin: 10px;
-    margin-top: -22%;
+    margin-top: -25%;
     height: 200px;
     width:200px;
     border-radius: 50%;
@@ -135,8 +140,8 @@ section p {
 section img {
     border-radius: 50%;
     border: 10px solid var(--offGoldLight);
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin-right: 2%;
 }
 
@@ -144,9 +149,30 @@ section img {
     background-color: white;
 }
 
+.secondaryHeader {
+    background-color: var(--offCyan);
+    margin: 10px;
+    margin-top: -25%;
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border: 10px solid var(--offCyanLight);
+    position: absolute;
+    text-align: center;
+}
+
 .secondary ul {
     list-style: none;
     text-align: center;
     font-size: 32px;
-    margin: 25%; 
+    margin: 32%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+section ul {
+    list-style: none;
+    text-align: left;
+    column-count: 2;
+    margin: 32%;
 }
