@@ -194,3 +194,47 @@ section ul {
     justify-content: center;
     position: absolute;
 }
+
+.project1 {
+    position: absolute;
+    margin: 20%;
+}
+
+.cap1 {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 17%;
+}
+
+.project2 {
+    position: absolute;
+    margin: 40%; 
+ }
+
+ .cap2 {
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 17%;
+}
+
+.project3 {
+    position: absolute;
+    margin: 60%;
+ }
+
+ .cap3 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 17%;
+}
+
+.project4 {
+    position: absolute;
+    margin: 80%;
+ }
+ 
+ .cap4 {
+    position: absolute;
+    margin-left: 77%;
+    margin-top: 17%;
+}
