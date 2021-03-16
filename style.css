@@ -68,8 +68,11 @@ main figure img {
 nav {
     display: flex;
     margin-top: 20%;
-    padding-bottom: 200px;
     justify-content: center;
+}
+
+.mainHeader {
+    padding-bottom: 200px;
 }
 
 .navbarNav {
@@ -99,6 +102,19 @@ nav a {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+
+#navItem:hover {
+    height: 125px;
+    width: 125px;
+}
+
+#navItem:hover > #navA {
+    line-height: 125px;
+}
+
+.navbar > #navItem:hover {
+    padding-bottom: 175px;
 }
 
 section {
