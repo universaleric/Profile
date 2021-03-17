@@ -197,7 +197,8 @@ section ul {
 
 .project1 {
     position: absolute;
-    margin: 20%;
+    margin-left: 13%;
+    margin-bottom: 23%;
 }
 
 .cap1 {
@@ -208,7 +209,8 @@ section ul {
 
 .project2 {
     position: absolute;
-    margin: 40%; 
+    margin-left: 33%;
+    margin-bottom: 23%;
  }
 
  .cap2 {
@@ -219,7 +221,8 @@ section ul {
 
 .project3 {
     position: absolute;
-    margin: 60%;
+    margin-left: 53%;
+    margin-bottom: 23%;
  }
 
  .cap3 {
@@ -230,11 +233,17 @@ section ul {
 
 .project4 {
     position: absolute;
-    margin: 80%;
+    margin-left: 73%;
+    margin-bottom: 23%;
  }
  
  .cap4 {
     position: absolute;
     margin-left: 77%;
     margin-top: 17%;
+}
+
+.secondary figure img:hover {
+    height: 250px;
+    width: 250px;
 }
