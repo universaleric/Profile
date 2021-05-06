@@ -4,7 +4,7 @@ This is my personal portfolio with an about me, skills, and contact section, alo
 
 ## Link to Deployed Application:
 
-https://universaleric.github.io/homework2/
+https://universaleric.github.io/profile/
 
 ## Screenshots of Web Page:
 
